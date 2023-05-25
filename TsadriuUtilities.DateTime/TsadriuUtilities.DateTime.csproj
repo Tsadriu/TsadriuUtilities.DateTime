@@ -13,7 +13,7 @@
         <RepositoryUrl>https://github.com/Tsadriu/TsadriuUtilities.DateTime</RepositoryUrl>
         <RepositoryType>GitHub</RepositoryType>
         <PackageTags>DateTimeHelper</PackageTags>
-        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <PackageReleaseNotes>Added XML document generation so there are XML comments on the methods.</PackageReleaseNotes>
         <AssemblyVersion>1.0.1</AssemblyVersion>
         <FileVersion>1.0.1</FileVersion>
         <NeutralLanguage>en-US</NeutralLanguage>
