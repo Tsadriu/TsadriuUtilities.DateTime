@@ -3,7 +3,7 @@
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
         <Authors>Tsadriu</Authors>
         <RootNamespace>DateTimeHelper</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -14,13 +14,18 @@
         <RepositoryType>GitHub</RepositoryType>
         <PackageTags>DateTimeHelper</PackageTags>
         <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageProjectUrl>https://github.com/Tsadriu/TsadriuUtilities.DateTime</PackageProjectUrl>
         <Copyright>Tsadriu</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>icon.png</PackageIcon>
+        <Version>1.0.1</Version>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\TsadriuUtilities.DateTime.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
