@@ -10,7 +10,6 @@
         <Title>TsadriuUtilities.DateTime</Title>
         <Description>TsadriuUtilities.DateTime is a library that helps on manupulating and managing DateTime types.</Description>
         <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
-        <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/Tsadriu/TsadriuUtilities.DateTime</RepositoryUrl>
         <RepositoryType>GitHub</RepositoryType>
         <PackageTags>DateTimeHelper</PackageTags>
@@ -18,12 +17,23 @@
         <AssemblyVersion>1.0.0</AssemblyVersion>
         <FileVersion>1.0.0</FileVersion>
         <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageProjectUrl>https://github.com/Tsadriu/TsadriuUtilities.DateTime</PackageProjectUrl>
+        <Copyright>Tsadriu</Copyright>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="icon.png">
+      <None Include="..\README.md">
         <Pack>True</Pack>
-        <PackagePath></PackagePath>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="icon.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
       </None>
     </ItemGroup>
 
