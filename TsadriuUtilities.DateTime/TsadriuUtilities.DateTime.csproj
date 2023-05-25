@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+        <Authors>Tsadriu</Authors>
+        <RootNamespace>DateTimeHelper</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>TsadriuUtilities.DateTime</Title>
+        <Description>TsadriuUtilities.DateTime is a library that helps on manupulating and managing DateTime types.</Description>
+        <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Tsadriu/TsadriuUtilities.DateTime</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageTags>DateTimeHelper</PackageTags>
+        <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <NeutralLanguage>en-US</NeutralLanguage>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
